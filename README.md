@@ -1,30 +1,26 @@
 # donationsvue-1.0
 
-> A Vue.js project
+Agree or Disagree web App
 
-## Build Setup
+Created the client side of this web app.
 
-``` bash
-# install dependencies
-npm install
+Functionality:
 
-# serve with hot reload at localhost:8080
-npm run dev
+Decided to change it from my previous idea and added a function where the user could add their own Statement.
 
-# build for production with minification
-npm run build
+I added 2 extra columns, Agree or Disagree Columns. If a user clicks on these the values for Agreed or Disagreed go up.
 
-# build for production and view the bundle analyzer report
-npm run build --report
+Users are shown Statements they can Agree or Disagree with each statement.
 
-# run unit tests
-npm run unit
+There is also a Admin Button. Clicking on this you will be asked to enter the password. If the password is correct 2 extra columns are displayed.. Edit and Delete.
 
-# run e2e tests
-npm run e2e
+Clicking Delete brings up another pop up box asking to confirm.
 
-# run all tests
-npm test
-```
+Clicking on Edit, brings you to another screen where the data from that statement are displayed. Unfortunately the save function is not working correctly.
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Server Side Functionality:
+
+The Statements are returned and displayed to the user.
+
+
+
