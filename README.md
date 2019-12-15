@@ -1,5 +1,10 @@
 # donationsvue-1.0
 
+Designed by: Barry Cronin
+Student Num: 20074828
+
+
+
 Agree or Disagree web App
 
 Created the client side of this web app.
@@ -18,12 +23,23 @@ Clicking Delete brings up another pop up box asking to confirm.
 
 Clicking on Edit, brings you to another screen where the data from that statement are displayed. Unfortunately the save function is not working correctly.
 
+Users can add  their own statements
+
+Only Admin can delete statements 
+
+
 Server Side Functionality:
 
 The Statements are returned and displayed to the user.
+
+New Statements can be added
+
+Agreed and Disagreed Values can be updated
 
 
 
 links:
 
-https://github.com/bazcron/agreeordisagree_vue_client
+github link: https://github.com/bazcron/agreeordisagree_vue_client
+
+Youtube link: https://youtu.be/ghC1jD32koM
